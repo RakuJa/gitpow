@@ -330,7 +330,23 @@ gitpow-rust/
 └── scripts/              # Build scripts
 ```
 
-## License
+# Features
 
-See [LICENSE](LICENSE) file for details.
+Separation by month/year:
+
+<img width="223" height="270" alt="{96BCC32B-59F5-4F7E-B183-E984E54E4F34}" src="https://github.com/user-attachments/assets/2335d4e4-8384-4ef5-b78f-3c2176bb9e1a" />
+
+vertical graph view:
+
+<img width="1920" height="1077" alt="image" src="https://github.com/user-attachments/assets/b2fd32b1-ed7b-4b05-8da5-9d9a1285e402" />
+
+Horizontal graph view:
+
+<img width="1080" height="606" alt="image" src="https://github.com/user-attachments/assets/684bd3b6-0697-4b9b-8493-8e6604c551fc" />
+
+Image Diff Preview:
+
+<img width="360" height="233" alt="{B3A8E29F-60C6-4C9C-971A-952394CD09FB}" src="https://github.com/user-attachments/assets/98616132-34e6-46ac-8984-d08339114e8c" />
+
+
 
