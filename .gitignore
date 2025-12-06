@@ -1,0 +1,79 @@
+# Rust build artifacts
+/target
+/target-test
+**/target/
+Cargo.lock  # For binaries, you might want to keep this, but it's often ignored
+
+# WebAssembly build outputs
+**/pkg/
+**/*.wasm
+**/*.wasm.d.ts
+graph-wasm/pkg/
+static/graph-wasm/pkg/
+
+# wasm-pack cache (if created in project - usually in user home)
+.wasm-pack/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Debug and log files
+*.log
+*.pdb
+*.dll
+*.dll.exp
+*.dll.lib
+*.exe
+*.dSYM/
+
+# Rust incremental compilation
+**/incremental/
+**/*.rmeta
+**/*.rlib
+
+# Environment and config files (if sensitive)
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build scripts output
+build/
+dist/
+out/
+
+# Coverage reports
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Test artifacts
+test-results/
